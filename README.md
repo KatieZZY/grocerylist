@@ -1,7 +1,7 @@
 # Grocery List
 This code allows users to input a list of URLS with recipes and outputs a csv file with ingredient type, ingredient name, amount and associated recipe.
 
-More information on the background on this work can be found on my blog post here.
+More information on the background on this work can be found on my blog post [here](https://medium.com/@katie.ziyan.zhang/how-i-automated-the-creation-of-my-grocery-list-from-a-bunch-of-recipe-websites-with-python-90d15e5c0c83).
 
 # Prerequisites
 To run this, code, you need to:
