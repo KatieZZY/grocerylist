@@ -78,10 +78,13 @@ def ingredient_parser(url_text):
         comment = list(ingredients['comment'])
         recipe = [data['title'] for i in range(len(data['ingredients']))]
 
-        # convert any oz to grams
+        # convert to metric
         for i, u in enumerate(unit):
             if u == 'oz' or u == 'ounces':
                 amount[i] = amount[i]*28.35
+                unit[i] = 'gram'
+            if u == 'pound':
+                amount[i] = amount[i]*454
                 unit[i] = 'gram'
 
         thisrecipe = pd.DataFrame({'name': name, 'amount': amount,
