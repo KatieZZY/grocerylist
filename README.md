@@ -12,9 +12,9 @@ To run this, code, you need to:
 # Using Grocery List on your computer
 Download the following files into the same directory
 * grocery.py
-* sr27asc files to identify food groups (USDA National Nutrient Database for Standard Reference, Release 27)
+* sr27asc folder (this contains the necessary files to identify the food groups for your ingredients)
 
-Create a list of urls (a .txt file) in the same directory listing a URL with the recipe on each line. For example:
+Create a txt file with listing a URL with the recipe on each line and save it into the same directory. For example:
 ```
 https://thewoksoflife.com/chinese-walnut-cookies/
 https://www.justonecookbook.com/japanese-potato-salad/
@@ -22,7 +22,7 @@ https://tasty.co/recipe/fluffy-jiggly-japanese-cheesecake
 ```
 
 In your command prompt:
-* set your working directory to the folder where you have downloaded the .py and sr27asc files
+* set your working directory to the folder where you have downloaded the grocery.py and sr27asc folder
 * run the the following command `python grocery.py '<listofurls.txt>'`
 
 For example:
