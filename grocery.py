@@ -80,7 +80,7 @@ def ingredient_parser(url_text):
 
         # convert any oz to grams
         for i, u in enumerate(unit):
-            if u == 'oz':
+            if u == 'oz' or u == 'ounces':
                 amount[i] = amount[i]*28.35
                 unit[i] = 'gram'
 
