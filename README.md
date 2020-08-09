@@ -25,7 +25,12 @@ In your command prompt:
 * set your working directory to the folder where you have downloaded the .py and sr27asc files
 * run the the following command `python grocery.py '<listofurls.txt>'`
 
+For example:
+```
+C:\Users\plcpi\Google Drive\Personal Projects\Ingredients extractor> python grocery.py 'recipes0908.txt'
+```
+
 A listofurls.csv will then be generated in the same directory.
 
 # Sources
-The ingredient parser in this code uses the open source engine at by [schollz](https://schollz.com/blog/ingredients/).
+The ingredient parser in this code uses the open source engine by [schollz](https://schollz.com/blog/ingredients/).
