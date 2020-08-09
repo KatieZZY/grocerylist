@@ -6,7 +6,6 @@ More information on the background on this work can be found on my blog post her
 # Prerequisites
 To run this, code, you need to:
 * have installed the latest version of Python
-* have a Windows machine
 * be connected to the internet
 
 # Using Grocery List on your computer
@@ -25,7 +24,7 @@ In your command prompt:
 * set your working directory to the folder where you have downloaded the grocery.py and sr27asc folder
 * run the the following command `python grocery.py '<listofurls.txt>'`
 
-For example:
+For example (on Windows):
 ```
 C:\Users\plcpi\Google Drive\Personal Projects\Ingredients extractor> python grocery.py 'recipes0908.txt'
 ```
