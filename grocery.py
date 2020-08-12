@@ -75,7 +75,10 @@ def ingredient_parser(url_text):
         name = list(ingredients['name'])
         amount = [i['measure']['amount'] for i in data['ingredients']]
         unit = [i['measure']['name'] for i in data['ingredients']]
-        comment = list(ingredients['comment'])
+        if 'comment' in ingredients.keys():
+            comment = list(ingredients['comment'])
+        else:
+            comment = [' ' for i in data['ingredients']]
         recipe = [data['title'] for i in range(len(data['ingredients']))]
 
         # convert to metric
